@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy Magic</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="assets/javascript/giphy.js"></script>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="buttons"></div>   <br> 
+
+    <form id="add-hero">
+        <label for="hero-input">Add a Hero!</label> <br>
+        <input type="text" id="hero-input"><br><br>
+        <input id="add-hero-button" type="submit" value="Add Hero">
+    </form><br>
+
+
+    <div id="ratings">
+        <h1>Select max rating</h1>
+        <select>          
+          <option value="G">G</option>
+          <option value="PG">PG</option>
+          <option value="PG-13">PG-13</option>
+          <option value="R">R</option>
+        </select>
+    </div>
+
+    <div id="instruct">
+        <h1>Click GIF to animate/pause</h1><br>
+        <h1>Double click GIF to add/remove favorites</h1>
+    </div>
+
+    <div id="clear">
+      <h1>Click here to clear favorites</h1>
+    </div>
+    
+
+    <div id="giphy-results"></div>
+
+
+</body>
+
+
+</html>
